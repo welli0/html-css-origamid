@@ -1,0 +1,24 @@
+.hoje {
+  color: darkred;
+}
+
+.amanha {
+  color: darkblue;
+}
+
+.estados {
+  color: seagreen;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: 20px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}

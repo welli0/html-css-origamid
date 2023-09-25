@@ -1,0 +1,49 @@
+:root {
+  --cor01: #febe01;
+  --cor02: #332100;
+  --cor03: #111;
+  --cor04: #b2b2b2;
+
+  --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
+* {
+  font-family: var(--fonte-padrao);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.item {
+  background-color: #111;
+  color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+body {
+  margin: 50px;
+}
+
+span {
+  color: var(--cor01);
+}
+
+p {
+  color: var(--cor04);
+}
+
+a {
+  text-decoration: none;
+  background-color: var(--cor01);
+  color: var(--cor02);
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
