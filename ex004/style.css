@@ -4,13 +4,20 @@
   gap: 20px;
 }
 
+.grid {
+  margin-top: 60px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 body {
   margin: 0px;
 }
 
 h2 {
   background-color: #ddd;
-  border: 1px solid red;
+  border: 1px solid skyblue;
   padding: 20px;
   margin: 0px;
   flex: 1;
