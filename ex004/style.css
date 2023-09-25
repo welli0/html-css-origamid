@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  place-content: center center;
+  height: 100vh;
+}
+
+body {
+  margin: 0px;
+}
+
+h2 {
+  background-color: #ddd;
+  border: 1px solid red;
+  padding: 20px;
+  margin: 0px;
+}
+
