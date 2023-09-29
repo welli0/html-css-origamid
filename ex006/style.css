@@ -93,6 +93,10 @@ main {
   text-transform: uppercase;
 }
 
+.botao:hover {
+  background-color: rgb(119, 19, 10);
+}
+
 .subtitulo {
   font-size: 64px;
   text-transform: uppercase;
@@ -114,6 +118,13 @@ main {
   padding: 20px;
 }
 
+.vantagens-item:hover {
+  border-left: 0.25rem solid red;
+}
+
+.vantagens-item:nth-child(odd) {
+  background-color: #f7f7f7;
+}
 .vantagens-item p {
   grid-column: 2;
 }
