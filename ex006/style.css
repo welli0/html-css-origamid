@@ -15,25 +15,6 @@ body {
   margin-top: 60px;
 }
 
-header {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-header a:hover {
-  border: 0.125rem solid red;
-}
-
-header a {
-  background-color: #fff;
-  padding: 15px 30px;
-  border-radius: 4px;
-  color: #000000;
-  text-transform: uppercase;
-}
-
 img {
   max-width: 100%;
   display: block;
@@ -41,6 +22,11 @@ img {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
 }
 
 p, h1, h2, h3 {
@@ -59,7 +45,34 @@ footer {
   box-sizing: border-box;
 }
 
-main {
+.header {
+  display: grid;
+  justify-items: center;
+  gap: 60px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu a {
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  color: #000000;
+  text-transform: uppercase;
+  display: block;
+  border: 0.125rem solid transparent;
+}
+
+.menu a:hover {
+  border: 0.125rem solid red;
+}
+
+.conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
@@ -76,7 +89,12 @@ main {
   justify-items: end;
 }
 
-.detalhe {
+.introducao h1 {
+  font-size: 2rem;
+}
+
+.introducao::before {
+  content: ' ';
   width: 60px;
   height: 4px;
   background-color: var(--color01);
@@ -88,17 +106,17 @@ main {
 .botao {
   background-color: var(--color01);
   color: #fff;
-  padding: 15px 30px;
+  padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
 }
 
 .botao:hover {
-  background-color: rgb(119, 19, 10);
+  background-color: rgb(71, 0, 0);
 }
 
 .subtitulo {
-  font-size: 64px;
+  font-size: 4rem;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
   text-align: right;
@@ -117,6 +135,7 @@ main {
   grid-template-columns: auto 1fr;
   gap: 10px 20px;
   padding: 20px;
+  border-left: 0.25rem solid transparent;
 }
 
 .vantagens-item:hover {
@@ -126,6 +145,7 @@ main {
 .vantagens-item:nth-child(odd) {
   background-color: #f7f7f7;
 }
+
 .vantagens-item p {
   grid-column: 2;
 }
